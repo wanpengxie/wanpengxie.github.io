@@ -1,27 +1,12 @@
 title: Atoll
-description: Agent 时代的内核层 —— Atoll 架构系列与设计文章
+description: Agent 时代的内核层 —— 介绍 Atoll 的 blog 文章
 lang: zh-CN
 theme: minima
-# 发布形态二选一（见 README.md）：
-# A. 仓库名为 wanpengxie.github.io → baseurl 留空
-# B. 仓库名为 atoll-site（项目页）→ baseurl: /atoll-site
 baseurl: ""
+url: "https://wanpengxie.github.io"
 
 markdown: kramdown
-
-# 让 architecture/ 下从 docs 仓原样同步来的 markdown 免 front matter 直接成页：
-# 无头文件当 page、首行 # 标题作页题、相对 .md 链接转 .html。
-# 这三个插件 GitHub Pages 默认启用，写在这里是为本地预览对齐。
-plugins:
-  - jekyll-optional-front-matter
-  - jekyll-titles-from-headings
-  - jekyll-relative-links
-
-defaults:
-  - scope:
-      path: ""
-    values:
-      layout: page
+permalink: /:year/:month/:day/:title/
 
 minima:
   date_format: "%Y-%m-%d"

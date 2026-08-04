@@ -1,4 +1,8 @@
-# Agent Loop 不是 Agent OS
+---
+layout: post
+title: "Agent Loop 不是 Agent OS"
+date: 2026-08-04 10:00:00 +0800
+---
 
 > 状态：架构定位  
 > 当前判断：Atoll 已实现持久协作 substrate；完整 Agent OS 系统层尚未实现。
